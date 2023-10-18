@@ -13,18 +13,7 @@ import {
 } from "@nextui-org/react";
 
 export default function App() {
-  const menuItems = [
-    "Profile",
-    "Dashboard",
-    "Activity",
-    "Analytics",
-    "System",
-    "Deployments",
-    "My Settings",
-    "Team Settings",
-    "Help & Feedback",
-    "Log Out",
-  ];
+  const menuItems = ["Prezzario", "Mappa", "Contatti"];
 
   return (
     <main className="dark text-foreground bg-background">
@@ -46,18 +35,18 @@ export default function App() {
             <p className="font-bold text-inherit">Il salotto delle stelle</p>
           </NavbarBrand>
           <NavbarItem>
-            <Link color="foreground" href="#">
-              Features
+            <Link color="foreground" href="#Trattamenti">
+              Trattamenti
             </Link>
           </NavbarItem>
           <NavbarItem isActive>
-            <Link href="#" aria-current="page" color="warning">
-              Customers
+            <Link href="#Mappa" color="foreground">
+              Mappa
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#">
-              Integrations
+            <Link color="foreground" href="#Contatti">
+              Contatti
             </Link>
           </NavbarItem>
         </NavbarContent>
@@ -65,7 +54,12 @@ export default function App() {
         <NavbarMenu>
           {menuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
-              <Link className="w-full" color="foreground" href="#" size="lg">
+              <Link
+                className="w-full"
+                color="foreground"
+                href={`#${item}`}
+                size="lg"
+              >
                 {item}
               </Link>
             </NavbarMenuItem>

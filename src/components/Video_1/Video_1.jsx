@@ -6,7 +6,7 @@ const Video1 = () => {
         overflow: "hidden",
         transform: "translateY(100px)",
       }}
-      className="relative isolate overflow-hidden py-24 px-4 sm:py-32"
+      className="relative isolate overflow-hidden my-0 px-4"
     >
       <video
         muted

@@ -1,6 +1,9 @@
 export default function SimpleBottomNavigation() {
   return (
-    <footer className="flex flex-col items-center bg-neutral-200 text-center text-white dark:bg-neutral-600">
+    <footer
+      className="flex flex-col items-center bg-neutral-200 text-center text-white dark:bg-neutral-600"
+      id="Contatti"
+    >
       <div className="container pt-9">
         <div className="mb-9 flex justify-center">
           <a

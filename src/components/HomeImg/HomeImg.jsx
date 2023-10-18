@@ -31,7 +31,9 @@ export default function HomeImg() {
         </ul>
         <div className="header-content">
           <h4 className="header-subtitle">Il Salotto</h4>
-          <h1 className="header-title">DELLE STELLE</h1>
+
+          <h1 className="header-title">DELLE</h1>
+          <h1 className="header-title">STELLE</h1>
           <h6 className="header-mono">di Rosario Autiero</h6>
         </div>
       </div>

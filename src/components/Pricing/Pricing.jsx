@@ -11,6 +11,7 @@ export default function Pricing() {
        z-20
        overflow-hidden
        "
+      id="Trattamenti"
     >
       <div className="container">
         <div className="flex flex-wrap -mx-4">

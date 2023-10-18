@@ -19,7 +19,7 @@ export default function Home() {
       <FirstHeader />
       <Works />
       <MiddleHeader />
-      <Video1 />
+      {/*       <Video1 /> */}
       <Pricing />
       <Map address="via orlandi 6 - 40068 San Lazzaro Di Savena (BO)" />
 
