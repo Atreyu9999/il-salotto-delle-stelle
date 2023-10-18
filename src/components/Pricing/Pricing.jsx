@@ -61,7 +61,7 @@ export default function Pricing() {
                 Menu
               </span>
               <h2 className="font-bold text-dark mb-5 text-[35px]">Bellezza</h2>
-              <p
+              {/* <p
                 className="
                       text-base text-body-color
                       pb-8
@@ -70,25 +70,16 @@ export default function Pricing() {
                       "
               >
                 Perfect for using in a personal website or a client project.
-              </p>
+              </p> */}
               <div className="mb-7">
                 <p className="text-base text-body-color leading-loose mb-1">
-                  1 User
+                  Tratt. Base: 30€
                 </p>
                 <p className="text-base text-body-color leading-loose mb-1">
-                  All UI components
+                  Tratt. Venere: 50€
                 </p>
                 <p className="text-base text-body-color leading-loose mb-1">
-                  Lifetime access
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Free updates
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Use on 1 (one) project
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  3 Months support
+                  Tratt. Universo: 75-80€
                 </p>
               </div>
               <a
@@ -108,7 +99,7 @@ export default function Pricing() {
                       transition
                       "
               >
-                Choose Personal
+                Scopri di più
               </a>
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
@@ -400,7 +391,7 @@ export default function Pricing() {
               <h2 className="font-bold text-dark mb-5 text-[35px]">
                 Schiariture
               </h2>
-              <p
+              {/* <p
                 className="
                       text-base text-body-color
                       pb-8
@@ -409,25 +400,16 @@ export default function Pricing() {
                       "
               >
                 Perfect for using in a Business website or a client project.
-              </p>
+              </p> */}
               <div className="mb-7">
                 <p className="text-base text-body-color leading-loose mb-1">
-                  5 Users
+                  Balayage 25: 80€
                 </p>
                 <p className="text-base text-body-color leading-loose mb-1">
-                  All UI components
+                  Balayage Shiny: 130€
                 </p>
                 <p className="text-base text-body-color leading-loose mb-1">
-                  Lifetime access
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Free updates
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Use on 3 (Three) project
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  4 Months support
+                  Balayage Air Touch: 180€
                 </p>
               </div>
               <a
@@ -437,17 +419,17 @@ export default function Pricing() {
                       block
                       text-base
                       font-semibold
-                      text-white
-                      bg-primary
-                      border border-primary
+                      text-primary
+                      bg-transparent
+                      border border-[#D4DEFF]
                       rounded-md
                       text-center
                       p-4
-                      hover:bg-opacity-90
+                      hover:text-white hover:bg-primary hover:border-primary
                       transition
                       "
               >
-                Choose Business
+                Scopri di più
               </a>
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
@@ -737,7 +719,7 @@ export default function Pricing() {
                 Menu
               </span>
               <h2 className="font-bold text-dark mb-5 text-[35px]">Taglio</h2>
-              <p
+              {/*  <p
                 className="
                       text-base text-body-color
                       pb-8
@@ -746,25 +728,16 @@ export default function Pricing() {
                       "
               >
                 Perfect for using in a Professional website or a client project.
-              </p>
+              </p> */}
               <div className="mb-7">
                 <p className="text-base text-body-color leading-loose mb-1">
-                  Unlimited Users
+                  Classico: 26€
                 </p>
                 <p className="text-base text-body-color leading-loose mb-1">
-                  All UI components
+                  Personalizzato: 34€
                 </p>
                 <p className="text-base text-body-color leading-loose mb-1">
-                  Lifetime access
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Free updates
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Use on Unlimited project
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  12 Months support
+                  A caldo: 30€
                 </p>
               </div>
               <a
@@ -784,7 +757,7 @@ export default function Pricing() {
                       transition
                       "
               >
-                Choose Professional
+                Scopri di più
               </a>
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
@@ -1073,8 +1046,8 @@ export default function Pricing() {
               <span className="text-primary font-semibold text-lg block mb-4">
                 Menu
               </span>
-              <h2 className="font-bold text-dark mb-5 text-[35px]">Bellezza</h2>
-              <p
+              <h2 className="font-bold text-dark mb-5 text-[35px]">Colore</h2>
+              {/*  <p
                 className="
                       text-base text-body-color
                       pb-8
@@ -1083,25 +1056,16 @@ export default function Pricing() {
                       "
               >
                 Perfect for using in a personal website or a client project.
-              </p>
+              </p> */}
               <div className="mb-7">
                 <p className="text-base text-body-color leading-loose mb-1">
-                  1 User
+                  Solo radici: 33€
                 </p>
                 <p className="text-base text-body-color leading-loose mb-1">
-                  All UI components
+                  Senza ammoniaca: 36€
                 </p>
                 <p className="text-base text-body-color leading-loose mb-1">
-                  Lifetime access
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Free updates
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Use on 1 (one) project
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  3 Months support
+                  Completo: 60-66€
                 </p>
               </div>
               <a
@@ -1121,7 +1085,7 @@ export default function Pricing() {
                       transition
                       "
               >
-                Choose Personal
+                Scopri di più
               </a>
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">

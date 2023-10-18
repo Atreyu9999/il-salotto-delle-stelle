@@ -13,15 +13,15 @@ export default function Works() {
       transition={{ duration: 3 }}
       ref={ref} // Aggiungi il ref al div che vuoi osservare
     >
-      <div className="gap-2 grid grid-cols-12 grid-rows-2 px-2 py-2">
-        <Card className="col-span-12 sm:col-span-4 h-[300px]">
+      <div className="gap-2 grid grid-cols-12 grid-rows-2 px-3 py-2">
+        <Card className="col-span-12 sm:col-span-4 h-[400px]">
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
-              What to watch
+              Il salotto delle stelle
             </p>
-            <h4 className="text-white font-medium text-large">
+            {/*  <h4 className="text-white font-medium text-large">
               Stream the Acme event
-            </h4>
+            </h4> */}
           </CardHeader>
           <Image
             removeWrapper
@@ -30,14 +30,14 @@ export default function Works() {
             src="/imgs/work_1.jpg"
           />
         </Card>
-        <Card className="col-span-12 sm:col-span-4 h-[300px]">
+        <Card className="col-span-12 sm:col-span-4 h-[400px]">
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
-              Plant a tree
+              Il salotto delle stelle
             </p>
-            <h4 className="text-white font-medium text-large">
+            {/* <h4 className="text-white font-medium text-large">
               Contribute to the planet
-            </h4>
+            </h4> */}
           </CardHeader>
           <Image
             removeWrapper
@@ -46,14 +46,14 @@ export default function Works() {
             src="/imgs/work_2.jpg"
           />
         </Card>
-        <Card className="col-span-12 sm:col-span-4 h-[300px]">
+        <Card className="col-span-12 sm:col-span-4 h-[400px]">
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
-              Supercharged
+              Il salotto delle stelle
             </p>
-            <h4 className="text-white font-medium text-large">
+            {/* <h4 className="text-white font-medium text-large">
               Creates beauty like a beast
-            </h4>
+            </h4> */}
           </CardHeader>
           <Image
             removeWrapper
@@ -62,14 +62,14 @@ export default function Works() {
             src="/imgs/work_3.jpg"
           />
         </Card>
-        <Card className="col-span-12 sm:col-span-4 h-[300px]">
+        <Card className="col-span-12 sm:col-span-4 h-[400px]">
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
-              What to watch
+              Il salotto delle stelle
             </p>
-            <h4 className="text-white font-medium text-large">
+            {/*  <h4 className="text-white font-medium text-large">
               Stream the Acme event
-            </h4>
+            </h4> */}
           </CardHeader>
           <Image
             removeWrapper
@@ -78,14 +78,14 @@ export default function Works() {
             src="/imgs/work_4.jpg"
           />
         </Card>
-        <Card className="col-span-12 sm:col-span-4 h-[300px]">
+        <Card className="col-span-12 sm:col-span-4 h-[400px]">
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
-              Plant a tree
+              Il salotto delle stelle
             </p>
-            <h4 className="text-white font-medium text-large">
+            {/*  <h4 className="text-white font-medium text-large">
               Contribute to the planet
-            </h4>
+            </h4> */}
           </CardHeader>
           <Image
             removeWrapper
@@ -94,14 +94,14 @@ export default function Works() {
             src="/imgs/work_5.jpg"
           />
         </Card>
-        <Card className="col-span-12 sm:col-span-4 h-[300px]">
+        <Card className="col-span-12 sm:col-span-4 h-[400px]">
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
-              Supercharged
+              Il salotto delle stelle
             </p>
-            <h4 className="text-white font-medium text-large">
+            {/* <h4 className="text-white font-medium text-large">
               Creates beauty like a beast
-            </h4>
+            </h4> */}
           </CardHeader>
           <Image
             removeWrapper
@@ -110,14 +110,14 @@ export default function Works() {
             src="/imgs/work_6.jpg"
           />
         </Card>
-        <Card className="col-span-12 sm:col-span-4 h-[300px]">
+        <Card className="col-span-12 sm:col-span-4 h-[400px]">
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
-              Plant a tree
+              Il salotto delle stelle
             </p>
-            <h4 className="text-white font-medium text-large">
+            {/*  <h4 className="text-white font-medium text-large">
               Contribute to the planet
-            </h4>
+            </h4> */}
           </CardHeader>
           <Image
             removeWrapper
@@ -126,14 +126,14 @@ export default function Works() {
             src="/imgs/work_7.jpg"
           />
         </Card>
-        <Card className="col-span-12 sm:col-span-4 h-[300px]">
+        <Card className="col-span-12 sm:col-span-4 h-[400px]">
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
-              Supercharged
+              Il salotto delle stelle
             </p>
-            <h4 className="text-white font-medium text-large">
+            {/* <h4 className="text-white font-medium text-large">
               Creates beauty like a beast
-            </h4>
+            </h4> */}
           </CardHeader>
           <Image
             removeWrapper
@@ -142,14 +142,14 @@ export default function Works() {
             src="/imgs/work_8.jpg"
           />
         </Card>
-        <Card className="col-span-12 sm:col-span-4 h-[300px]">
+        <Card className="col-span-12 sm:col-span-4 h-[400px]">
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
-              Supercharged
+              Il salotto delle stelle
             </p>
-            <h4 className="text-white font-medium text-large">
+            {/*  <h4 className="text-white font-medium text-large">
               Creates beauty like a beast
-            </h4>
+            </h4> */}
           </CardHeader>
           <Image
             removeWrapper

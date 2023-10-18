@@ -7,6 +7,9 @@ import MiddleHeader from "@/components/MiddleHeader/MiddleHeader";
 import FirstHeader from "@/components/FirstHeader/FirstHeader";
 import Pricing from "@/components/Pricing/Pricing";
 import { NextUIProvider } from "@nextui-org/react";
+import Map from "@/components/Map/Map";
+import Social from "@/components/Social/Social";
+import Video1 from "@/components/Video_1/Video_1";
 
 export default function Home() {
   return (
@@ -16,7 +19,11 @@ export default function Home() {
       <FirstHeader />
       <Works />
       <MiddleHeader />
+      <Video1 />
       <Pricing />
+      <Map address="via orlandi 6 - 40068 San Lazzaro Di Savena (BO)" />
+
+      <Social />
 
       {/* <nav
         className="navbar sticky-top navbar-expand-lg navbar-light bg-white"

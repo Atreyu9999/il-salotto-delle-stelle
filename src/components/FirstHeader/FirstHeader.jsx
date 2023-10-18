@@ -18,7 +18,7 @@ export default function FirstHeader() {
             href="https://www.beautynailhairsalons.com/IT/San-Lazzaro-di-Savena/185073514998607/IL-SALOTTO-DELLE-STELLE"
             className="text-xl mb-12"
           >
-            TRUSS AQVA AMORIS CKS COLOR KEY SYSTEM PREVIA
+            COMAS ILLUMINAT
           </a>
         </div>
       </div>
