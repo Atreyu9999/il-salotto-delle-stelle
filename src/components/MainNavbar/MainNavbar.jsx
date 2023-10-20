@@ -13,58 +13,45 @@ import {
 } from "@nextui-org/react";
 
 export default function App() {
-  const menuItems = ["Prezzario", "Mappa", "Contatti"];
-
   return (
     <main className="dark text-foreground bg-background">
       <Navbar>
-        <NavbarContent className="sm:hidden" justify="start">
-          <NavbarMenuToggle />
-        </NavbarContent>
-
-        <NavbarContent className="sm:hidden pr-3" justify="center">
-          <NavbarBrand>
-            <Image src="/imgs/logo_black.jpg" width={80} height={80} />
-            <p className="font-bold text-inherit">Il salotto delle stelle</p>
+        <NavbarContent
+          className="flex sm:flex-col sm:items-center gap-4"
+          justify="end"
+        >
+          <NavbarBrand className="flex">
+            <Image
+              src="/imgs/logo_black.jpg"
+              alt="logo"
+              width={80}
+              height={80}
+            />
+            <p className="font-bold text-inherit hidden sm:flex">
+              Il salotto delle stelle
+            </p>
           </NavbarBrand>
-        </NavbarContent>
-
-        <NavbarContent className="hidden sm:flex gap-4" justify="end">
-          <NavbarBrand>
-            <Image src="/imgs/logo_black.jpg" width={80} height={80} />
-            <p className="font-bold text-inherit">Il salotto delle stelle</p>
-          </NavbarBrand>
-          <NavbarItem>
+          <NavbarItem className="sm:text-center">
             <Link color="foreground" href="#Trattamenti">
               Trattamenti
             </Link>
           </NavbarItem>
-          <NavbarItem isActive>
+          <NavbarItem className="sm:text-center">
             <Link href="#Mappa" color="foreground">
               Mappa
             </Link>
           </NavbarItem>
-          <NavbarItem>
+          <NavbarItem className="sm:text-center">
+            <Link color="foreground" href="#Orari">
+              Orari
+            </Link>
+          </NavbarItem>
+          <NavbarItem className="sm:text-center">
             <Link color="foreground" href="#Contatti">
-              Contatti
+              Social
             </Link>
           </NavbarItem>
         </NavbarContent>
-
-        <NavbarMenu>
-          {menuItems.map((item, index) => (
-            <NavbarMenuItem key={`${item}-${index}`}>
-              <Link
-                className="w-full"
-                color="foreground"
-                href={`#${item}`}
-                size="lg"
-              >
-                {item}
-              </Link>
-            </NavbarMenuItem>
-          ))}
-        </NavbarMenu>
       </Navbar>
     </main>
   );

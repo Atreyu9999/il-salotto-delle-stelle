@@ -83,7 +83,7 @@ export default function Pricing() {
                   Tratt. Universo: 75-80€
                 </p>
               </div>
-              <a
+              {/* <a
                 href="javascript:void(0)"
                 className="
                       w-full
@@ -101,7 +101,7 @@ export default function Pricing() {
                       "
               >
                 Scopri di più
-              </a>
+              </a> */}
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
                   <svg
@@ -121,12 +121,8 @@ export default function Pricing() {
                         y2="172"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#3056D3" stop-opacity="0.09" />
-                        <stop
-                          offset="1"
-                          stop-color="#C4C4C4"
-                          stop-opacity="0"
-                        />
+                        <stop stopColor="#3056D3" stopOpacity="0.09" />
+                        <stop offset="1" stopColor="#C4C4C4" stopOpacity="0" />
                       </linearGradient>
                     </defs>
                   </svg>
@@ -413,7 +409,7 @@ export default function Pricing() {
                   Balayage Air Touch: 180€
                 </p>
               </div>
-              <a
+              {/* <a
                 href="javascript:void(0)"
                 className="
                       w-full
@@ -431,7 +427,7 @@ export default function Pricing() {
                       "
               >
                 Scopri di più
-              </a>
+              </a> */}
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
                   <svg
@@ -451,12 +447,8 @@ export default function Pricing() {
                         y2="172"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#3056D3" stop-opacity="0.09" />
-                        <stop
-                          offset="1"
-                          stop-color="#C4C4C4"
-                          stop-opacity="0"
-                        />
+                        <stop stopColor="#3056D3" stopOpacity="0.09" />
+                        <stop offset="1" stopColor="#C4C4C4" stopOpacity="0" />
                       </linearGradient>
                     </defs>
                   </svg>
@@ -741,7 +733,7 @@ export default function Pricing() {
                   A caldo: 30€
                 </p>
               </div>
-              <a
+              {/* <a
                 href="javascript:void(0)"
                 className="
                       w-full
@@ -759,7 +751,7 @@ export default function Pricing() {
                       "
               >
                 Scopri di più
-              </a>
+              </a> */}
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
                   <svg
@@ -779,12 +771,8 @@ export default function Pricing() {
                         y2="172"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#3056D3" stop-opacity="0.09" />
-                        <stop
-                          offset="1"
-                          stop-color="#C4C4C4"
-                          stop-opacity="0"
-                        />
+                        <stop stopColor="#3056D3" stopOpacity="0.09" />
+                        <stop offset="1" stopColor="#C4C4C4" stopOpacity="0" />
                       </linearGradient>
                     </defs>
                   </svg>
@@ -1069,7 +1057,7 @@ export default function Pricing() {
                   Completo: 60-66€
                 </p>
               </div>
-              <a
+              {/* <a
                 href="javascript:void(0)"
                 className="
                       w-full
@@ -1087,7 +1075,7 @@ export default function Pricing() {
                       "
               >
                 Scopri di più
-              </a>
+              </a> */}
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
                   <svg
@@ -1107,12 +1095,8 @@ export default function Pricing() {
                         y2="172"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#3056D3" stop-opacity="0.09" />
-                        <stop
-                          offset="1"
-                          stop-color="#C4C4C4"
-                          stop-opacity="0"
-                        />
+                        <stop stopColor="#3056D3" stopOpacity="0.09" />
+                        <stop offset="1" stopColor="#C4C4C4" stopOpacity="0" />
                       </linearGradient>
                     </defs>
                   </svg>

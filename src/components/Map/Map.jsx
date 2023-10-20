@@ -10,7 +10,7 @@ const Map = () => {
             Vieni a trovarmi
           </h1>
           <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
-            Via orlandi 6 - 40068 San Lazzaro Di Savena (BO)
+            Via Orlandi 6 - 40068 San Lazzaro Di Savena (BO)
           </p>
           <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4"></div>
         </div>
@@ -20,7 +20,7 @@ const Map = () => {
           width="100%"
           height={500}
           load="lazy"
-          allowfullscreen
+          allowFullScreen
           src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJq_ThmK0rfkcR21yPoHqBkm8&key=AIzaSyCr615g10qiRsLH2zCwfyktvT-phP-5iiY"
         ></iframe>
       </div>

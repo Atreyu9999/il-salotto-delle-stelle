@@ -1,23 +1,22 @@
 const Video1 = () => {
   return (
-    <div
-      style={{
-        height: 800,
-        overflow: "hidden",
-        transform: "translateY(100px)",
-      }}
-      className="relative isolate overflow-hidden my-0 px-4"
-    >
-      <video
-        muted
-        autoPlay
-        loop
-        width="100%"
-        style={{ transform: "translateY(-600px)" }}
-      >
-        <source src="/imgs/swishh.mp4"></source>
-      </video>
-    </div>
+    <>
+      <div className="flex items-center justify-center h-200 bg-gray-100 w-auto">
+        <div className="w-full max-w-lg mx-auto bg-white rounded-lg shadow-xl justify-center w-auto m-5">
+          <div className="max-w-md mx-auto space-y-6 justify-center w-auto">
+            <img
+              src="/imgs/logo_white.jpg"
+              className="flex-none text-xs leading-none font-medium uppercase text-white"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="embed-responsive embed-responsive-21by9 relative w-full overflow-hidden m-4 w-auto ">
+        <video muted autoPlay loop>
+          <source src="/imgs/video_free.mp4"></source>
+        </video>
+      </div>
+    </>
   );
 };
 export default Video1;
